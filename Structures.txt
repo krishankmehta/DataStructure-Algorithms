@@ -1,0 +1,21 @@
+Using primitive data type we deifne a structure which is a user data type
+struct Rectangle
+{
+int length;            --------2 Bytes
+int breadth;	       --------2 Bytes
+}; 
+Above is just the defination. Total 4 bytes, still there is no size unless you declare a variable
+
+
+
+int main()
+{
+struct Rectangle r; declaration
+struct Rectangle r = {10,5}; initialization
+r.length = 10;
+r.breadth  15;
+}
+If its in main it will be in the stack frame
+
+struct Rectangle r[10];  ------This is array of structures
+r[0].length ----------- How to access the element

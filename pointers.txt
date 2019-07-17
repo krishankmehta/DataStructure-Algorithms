@@ -1,0 +1,7 @@
+Pointer is a address variable. It is used to store the address. Pointers are used to indirectly accesing the data.
+
+Main memory is divided in to code section, stack and heap. Program can directly access code section and stack. Program access heap memory using a pointer. Pointers are used for accessingthe resources which are outside the program. It is also used for parameter passing.
+
+int a = 10; ---------Data variable
+int * p;    ---------Address variable
+p = &a;

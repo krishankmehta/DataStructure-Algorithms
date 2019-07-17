@@ -1,0 +1,12 @@
+Contains notes about data structures and algorithms
+Program is a set of instructions operation on a set of data
+Main memeory has Program code and Data
+List of data structures
+
+Arrays, Matrices Linked List - Physical data structures - Arrangement of data
+Stack, Queues, Trees, Graph, Hashing are logical data structures - Utilization of Data
+Arrays : Collection of similar data elements
+int A[5];
+A[0][1][2][3][4][5]
+int A[5]; = Declaration 
+int B[5] = {0,1,2,3,4} = Declaration and Initialization
